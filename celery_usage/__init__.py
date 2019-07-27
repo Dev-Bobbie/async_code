@@ -1,0 +1,6 @@
+base64Str = "W1siaHR0cDovL3d3dy5iYWlkdS5jb20vcz93ZD05OTkzIl0sIHt9LCB7ImNhbGxiYWNrcyI6IG51bGwsICJlcnJiYWNrcyI6IG51bGwsICJjaGFpbiI6IG51bGwsICJjaG9yZCI6IG51bGx9XQ=="
+
+import base64
+
+text = base64.b64decode(base64Str)
+print(text)
